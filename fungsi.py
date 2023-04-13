@@ -20,6 +20,7 @@ def konso(arr,lmnt):
     temp[count] = lmnt
     return temp
 
+# Pengganti fungsi append untuk string
 def konso_string(string,lmnt):
     count = len(string)
     temp = ['' for i in range(count+1)]
