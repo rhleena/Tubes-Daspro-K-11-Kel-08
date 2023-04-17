@@ -12,8 +12,8 @@ else:
     panjangData = len_arr(a) - 1
     database = ['' for i in range(panjangData)]
 
-    for i in range(-1,-len(a)-1,-1):
-        if (i != -len(a)):
+    for i in range(-1,-len_arr(a)-1,-1):
+        if (i != -len_arr(a)):
             database[i] = a[i]
 
     for i in range(panjangData):
