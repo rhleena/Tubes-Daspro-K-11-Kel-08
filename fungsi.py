@@ -51,9 +51,13 @@ def split(kata,delimiter):
     e = konso(tampung,word)
     return e
 
-'''a=[]
-b='joshua'
-print(konso(a,b))
-'''
-a='josh;ua'
-print(split(a,';'))
+def strip(string,delimiter):
+    a = string
+    b = ''
+    n = len(string)
+    for i in range(n):
+        if(a[i] != delimiter):
+            b = konso_string(b,a[i])
+    return b
+
+# fungsi delete elemen dari array
